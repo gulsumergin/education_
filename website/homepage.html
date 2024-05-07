@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Aykin Bildungsberatung</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+      .navbar-brand img {
+            width: 50px;
+            height: 50px;
+        }
+      .jumbotron {
+            background-color: rgba(69, 69, 70, 0.364);
+            background-image: url('germanyq.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+      .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="homepage.html">
+            <img src="logo.png" alt="Logo">
+            Aykin Bildungsberatung
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Study in Germany</h1>
+            <p class="lead">We provide consultancy services for students who want to study in Germany.</p>
+            <hr class="my-4">
+            <p>Germany is one of the most popular destinations for international students. With its world-class universities, affordable tuition fees, and vibrant student life, it's no wonder why.</p>
+            <p class="lead">
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="https://www.instagram.com/aykinbildungsberatung/" target="_blank" role="button">Learn more</a>
+                </p>
+            </p>
+        </div>
+    </div>
+    
+    <!-- Content -->
+    <div class="container">
+        <h2>Why Study in Germany?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="university.jpg" alt="University">
+                    <div class="card-body">
+                        <h5 class="card-title">World-Class Universities</h5>
+                        <p class="card-text">Germany is home to some of the best universities in the world. Many of them rank highly in international rankings.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="cost.png" alt="Cost">
+                    <div class="card-body">
+                        <h5 class="card-title">Affordable Tuition Fees</h5>
+                        <p class="card-text">Most German universities charge little to no tuition fees, making it an affordable option for international students.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="student-life.jpg" alt="Student Life">
+                    <div class="card-body">
+                        <h5 class="card-title">Vibrant Student Life</h5>
+                        <p class="card-text">Germany has a vibrant student life, with many cultural and recreational activities to choose from.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Copyright 2023 Consultancy for Education in Germany</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript files -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    
+
+    
+    <script>
+        // Get the current page URL
+        const currentPageUrl = window.location.href;
+      
+        // Get all the navbar links
+        const navbarLinks = document.querySelectorAll('#main-nav.nav-link');
+      
+        // Loop through the navbar links
+        navbarLinks.forEach((link) => {
+          // If the link URL matches the current page URL
+          if (link.href === currentPageUrl) {
+            // Add the 'active' class to the link
+            link.classList.add('active');
+          }
+        });
+      </script>
+
+
+
+
+</body>
