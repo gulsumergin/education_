@@ -17,3 +17,6 @@ Add a form to your website with the Formspree endpoint in the action attribute.
 Test the form by submitting it and checking your email for the form data.
 
 Note: Formspree has a free plan that allows you to receive up to 50 submissions per month. 
+
+
+ps: https://formspree.io/forms/xayrvgwd/submissions
